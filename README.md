@@ -3,3 +3,9 @@
 # Calculator
 
 Simple calculator built with HTML, CSS and JavaScript.
+
+## Dependencies
+
+### Fonts
+
+- Google Fonts: <a href="https://fonts.google.com/specimen/Exo+2">Exo 2</a>

@@ -1,0 +1,51 @@
+body {
+	font-family: "Exo 2", sans-serif;
+}
+
+.container {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.calculator {
+	padding: 40px 20px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	height: 620px;
+	width: 420px;
+}
+
+.calculator-display {
+	padding: 25px 10px;
+	border-radius: 10px;
+	background-color: darkslategrey;
+	color: yellow;
+	text-align: right;
+	font-size: 25px;
+}
+
+.calculator-buttons {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+.button {
+	background-color: lightpink;
+	color: white;
+	border-radius: 200px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: coral;
+	color: black;
+}
+
+.button.zero {
+	width: 200px;
+	border-radius: 100px;
+}
