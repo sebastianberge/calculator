@@ -16,37 +16,36 @@
 	<body>
 		<div class="container">
 			<div class="calculator">
-				<div class="calculator-display">Display here...</div>
-				<div class="calculator-buttons">
+				<input type="text" class="calculator-display" value="" disabled />
 					<table>
 						<tr>
-							<td class="button">AC</td>
-							<td class="button">+/-</td>
-							<td class="button">&percnt;</td>
-							<td class="button">&divide;</td>
+							<td><button type="button" class="button clear" value="clear">AC</button></td>
+							<td><button type="button" class="button operator not-impl" value="\">+/-</button></td>
+							<td><button type="button" class="button operator not-impl" value="%">&percnt;</button></td>
+							<td><button type="button" class="button operator" value="/">&divide;</button></td>
 						</tr>
 						<tr>
-							<td class="button">7</td>
-							<td class="button">8</td>
-							<td class="button">9</td>
-							<td class="button">X</td>
+							<td><button type="button" class="button" value="7">7</button></td>
+							<td><button type="button" class="button" value="8">8</button></td>
+							<td><button type="button" class="button" value="9">9</button></td>
+							<td><button type="button" class="button" value="*">&times;</button></td>
 						</tr>
 						<tr>
-							<td class="button">4</td>
-							<td class="button">5</td>
-							<td class="button">6</td>
-							<td class="button">-</td>
+							<td><button type="button" class="button" value="4">4</button></td>
+							<td><button type="button" class="button" value="5">5</button></td>
+							<td><button type="button" class="button" value="6">6</button></td>
+							<td><button type="button" class="button" value="-">-</button></td>
 						</tr>
 						<tr>
-							<td class="button">1</td>
-							<td class="button">2</td>
-							<td class="button">3</td>
-							<td class="button">+</td>
+							<td><button type="button" class="button" value="1">1</button></td>
+							<td><button type="button" class="button" value="2">2</button></td>
+							<td><button type="button" class="button" value="3">3</button></td>
+							<td><button type="button" class="button" value="+">+</button></td>
 						</tr>
 						<tr>
-							<td class="button zero" colspan="2">0</td>
-							<td class="button">,</td>
-							<td class="button">=</td>
+							<td colspan="2"><button type="button" class="button zero" value="0">0</button></td>
+							<td><button type="button" class="button decimal" value=",">,</button></td>
+							<td><button type="button" class="button equal operator" value="=">=</button></td>
 						</tr>
 					</table>
 				</div>
